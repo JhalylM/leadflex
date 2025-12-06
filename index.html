@@ -1,149 +1,119 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>IronForge Fitness</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pulse Fitness Gym</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b0f1a; /* Dark navy */
+            color: #ffffff;
+        }
+        header {
+            background-color: #111827; /* Slightly lighter navy */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #4ade80; /* Lime green accent */
+            margin: 0;
+        }
+        nav {
+            background-color: #1f2937;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #4ade80;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-color: #111827;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            color: #4ade80;
+            font-size: 2.5em;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: #1f2937;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .section h3 {
+            color: #4ade80;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111827;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pulse Fitness Gym</h1>
+    </header>
 
-		<!-- Wrapper -->
-		<div id="wrapper" class="fade-in">
+    <nav>
+        <a href="#about">About</a>
+        <a href="#classes">Classes</a>
+        <a href="#contact">Contact</a>
+        <a href="#membership">Memberships</a>
+    </nav>
 
-			<!-- Intro -->
-			<div id="intro">
-				<h1>Welcome to<br />IronForge Fitness</h1>
-				<p>Your neighborhood gym for strength, conditioning, and community.<br />
-				Build your best self with 24/7 access, group classes, and personal training.</p>
-				<ul class="actions">
-					<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Explore</a></li>
-				</ul>
-			</div>
+    <section class="hero">
+        <h2>Stronger. Healthier. Better.</h2>
+        <p>Your neighborhood gym committed to helping you feel your best.</p>
+    </section>
 
-			<!-- Header -->
-			<header id="header">
-				<a href="index.html" class="logo">IronForge Fitness</a>
-			</header>
+    <section id="about" class="section">
+        <h3>About Us</h3>
+        <p>Pulse Fitness Gym is dedicated to providing a welcoming environment for every fitness level. Whether you're just getting started or you're an experienced athlete, we have everything you need to work toward your goals.</p>
+    </section>
 
-			<!-- Nav -->
-			<nav id="nav">
-				<ul class="links">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="generic.html">Membership</a></li>
-					<li><a href="elements.html">Classes</a></li>
-				</ul>
-			</nav>
+    <section id="classes" class="section">
+        <h3>Class Schedule</h3>
+        <ul>
+            <li>Monday - HIIT @ 6 PM</li>
+            <li>Tuesday - Yoga Flow @ 7 AM</li>
+            <li>Wednesday - Strength Training @ 5 PM</li>
+            <li>Thursday - Spin Class @ 6 PM</li>
+            <li>Friday - Bootcamp @ 7 AM</li>
+        </ul>
+    </section>
 
-			<!-- Main -->
-			<div id="main">
+    <section id="membership" class="section">
+        <h3>Membership Options</h3>
+        <p><strong>Basic:</strong> $29/month — Gym access during staffed hours</p>
+        <p><strong>Standard:</strong> $49/month — 24/7 access + 4 classes/month</p>
+        <p><strong>Premium:</strong> $79/month — Unlimited classes + guest passes</p>
+    </section>
 
-				<!-- Featured Post -->
-				<article class="post featured">
-					<header class="major">
-						<h2><a href="#">Stronger Starts Today</a></h2>
-						<p>Join our supportive community and get personalized guidance.<br />
-						New members: Book a free tour by calling or emailing us.</p>
-					</header>
-					<a href="#" class="image main"><img src="images/gym01.jpg" alt="Gym Hero" /></a>
-					<ul class="actions special">
-						<li><a href="#footer" class="button large">Book a Tour</a></li>
-					</ul>
-				</article>
+    <section id="contact" class="section">
+        <h3>Contact Us</h3>
+        <p><strong>Address:</strong> 123 Fitness Lane, Springfield</p>
+        <p><strong>Phone:</strong> (555) 123-4567</p>
+        <p><strong>Email:</strong> info@pulsefitnessdemo.com</p>
+    </section>
 
-				<!-- Posts (Gym Services) -->
-				<section class="posts">
-					<article>
-						<header>
-							<h2><a href="#">Strength Training Zone</a></h2>
-						</header>
-						<a href="#" class="image fit"><img src="images/gym02.jpg" alt="" /></a>
-						<p>Top-tier free weights, racks, and platforms suitable for beginners and advanced lifters.</p>
-					</article>				
-					
-					<article>
-						<header>
-							<h2><a href="#">Cardio Loft</a></h2>
-						</header>
-						<a href="#" class="image fit"><img src="images/gym03.jpg" alt="" /></a>
-						<p>Treadmills, ellipticals, rowers, bikes, and more—no waiting, always clean.</p>
-					</article>
+    <footer>
+        <p>© 2025 Pulse Fitness Gym — Demo Site</p>
+    </footer>
 
-					<article>
-						<header>
-							<h2><a href="#">Group Classes</a></h2>
-						</header>
-						<a href="#" class="image fit"><img src="images/gym04.jpg" alt="" /></a>
-						<p>Yoga, HIIT, strength circuits, bootcamp, and spin. Classes run 7 days a week.</p>
-					</article>
-
-					<article>
-						<header>
-							<h2><a href="#">Personal Training</a></h2>
-						</header>
-						<a href="#" class="image fit"><img src="images/gym05.jpg" alt="" /></a>
-						<p>Certified trainers offering individualized programs for weight loss, strength, and performance.</p>
-					</article>
-				</section>
-
-			</div>
-
-			<!-- Footer with Gym Info -->
-			<footer id="footer">
-				<section class="split contact">
-					<section class="alt">
-						<h3>Address</h3>
-						<p>1450 Steelworks Ave<br />Austin, TX 78704</p>
-					</section>
-
-					<section>
-						<h3>Phone</h3>
-						<p><a href="tel:5125551299">(512) 555-1299</a></p>
-					</section>
-
-					<section>
-						<h3>Email</h3>
-						<p><a href="mailto:contact@ironforgefitness.com">contact@ironforgefitness.com</a></p>
-					</section>
-
-					<section>
-						<h3>Hours</h3>
-						<p>24/7 Member Access<br />Staffed Hours: 9am–8pm</p>
-					</section>
-				</section>
-			</footer>
-
-			<!-- Copyright -->
-			<div id="copyright">
-				<ul>
-					<li>&copy; IronForge Fitness</li>
-				</ul>
-			</div>
-
-		</div>
-
-		<!-- Insert your Tidio script BELOW this line -->
-		<!-- Replace YOUR_PUBLIC_KEY with your real Tidio key -->
-		<script src="https://code.tidio.co/YOUR_PUBLIC_KEY.js" async></script>
-
-		<!-- Force chat reset on page load -->
-		<script>
-			document.addEventListener("tidioChat-ready", function() {
-				const api = tidioChatApi;
-				api.setVisitorData({});  
-				api.reset(); // This clears previous session
-			});
-		</script>
-
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Tidio Script Here -->
+    <script src="//code.tidio.co/5s8hberul3a0poe6bk0lhnzhfeqfplpa.js" async></script>
+</body>
 </html>
