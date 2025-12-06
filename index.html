@@ -115,5 +115,13 @@
 
     <!-- Tidio Script Here -->
     <script src="//code.tidio.co/5s8hberul3a0poe6bk0lhnzhfeqfplpa.js" async></script>
+
+    <script>
+			document.addEventListener("tidioChat-ready", function() {
+				const api = tidioChatApi;
+				api.setVisitorData({});  
+				api.reset(); // This clears previous session
+			});
+		</script>
 </body>
 </html>
